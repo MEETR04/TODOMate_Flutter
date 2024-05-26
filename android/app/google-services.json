@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1065188411544",
+    "project_id": "todomate-ff3d2",
+    "storage_bucket": "todomate-ff3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065188411544:android:894dfe3035cd79ba6528ed",
+        "android_client_info": {
+          "package_name": "com.example.todomate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065188411544-th0h1s4up7p7900aq956fnn3p8d3k2pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todomate",
+            "certificate_hash": "995aad5db38c7daea7fb43fd8c5d44f82c79795e"
+          }
+        },
+        {
+          "client_id": "1065188411544-khah1saa0f87m1bvk4ffugleuvkniigu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1QFXIdeQAoHldU63ELhLCBLVq3Fj5nbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065188411544-khah1saa0f87m1bvk4ffugleuvkniigu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
