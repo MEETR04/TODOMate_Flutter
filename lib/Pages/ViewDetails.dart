@@ -48,7 +48,7 @@ TextEditingController tasktimecontroller = TextEditingController();
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(left: 55),
               child: Text(
                 "Edit a Task",
@@ -61,7 +61,7 @@ TextEditingController tasktimecontroller = TextEditingController();
             InkWell(onTap: () {
               FirebaseFirestore.instance.collection("Todo").doc(widget.id).delete().then((value) => Navigator.pop(context));
             },
-                child: Icon(Icons.delete,color: Colors.white,)),
+                child: const Icon(Icons.delete,color: Colors.white,)),
           ],
         ),
         //centerTitle: true,

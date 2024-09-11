@@ -8,13 +8,15 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:todomate/Pages/HomePage.dart';
 import 'package:todomate/Pages/SignUpPage.dart';
 import 'package:todomate/Service/Auth_service.dart';
+import 'package:todomate/api/firebase_api.dart';
 import 'package:todomate/firebase_options.dart';
 
 import 'Pages/OTPSCreen.dart';
 
-void main()async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await FirebaseApi().initNotifications();
   runApp( const ProviderScope(child: MyApp()));
 }
 class MyApp extends StatefulWidget {

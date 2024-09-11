@@ -22,7 +22,6 @@ class Task extends Equatable {
   });
 
 
-
   @override
   List get props {
     return [
